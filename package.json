@@ -1,5 +1,5 @@
 {
-  "name": "use-ref-state",
+  "name": "react-use-ref-state",
   "version": "1.0.0",
   "description": "solve closure problems in useEffect",
   "module": "lib/index.es.js",
@@ -15,6 +15,7 @@
     "lib"
   ],
   "keywords": [
+    "use-ref-state",
     "useRefState",
     "useEffect",
     "useRef",
