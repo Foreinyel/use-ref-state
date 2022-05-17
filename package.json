@@ -1,6 +1,6 @@
 {
   "name": "react-use-ref-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "solve closure problems in useEffect",
   "module": "lib/index.es.js",
   "main": "lib/index.cjs.js",
