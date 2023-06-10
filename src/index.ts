@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 
 const useRefState: <T extends any>(
-  initial: T
+  initial: T | (() => T)
 ) => [{ current: T }, (initial: T) => void] = (initial) => {
   const [data, setData] = useState(initial);
   const dataRef = useRef(data);
